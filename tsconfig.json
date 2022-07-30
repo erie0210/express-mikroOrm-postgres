@@ -8,7 +8,9 @@
     "esModuleInterop": true,
     "strict": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "rootDir": ".",
+    "baseUrl": "."
   },
   "include": ["./app"],
   "exclude": ["node_modules"],

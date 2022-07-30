@@ -10,7 +10,8 @@ const options: Options ={
   port: 5432,
   user: 'root',
   password: 'root',
-  clientUrl: 'jdbc:postgresql://localhost:5432/postgres'
+  clientUrl: 'jdbc:postgresql://localhost:5432/postgres',
+  allowGlobalContext: true,
 };
 
 export default options;
